@@ -12,13 +12,10 @@ on:
 
 jobs:
 
-
   build:
 
-
     runs-on: ubuntu-latest
-
-      steps:
+    steps:
 
         -name: "Running Date Command"
          run: date
