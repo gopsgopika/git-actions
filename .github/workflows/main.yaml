@@ -15,15 +15,15 @@ jobs:
     steps:
       - name: "Running Date Command"
          run: date
-         shell:bash
+         shell: bash
 
       - name: "Getting OS Details"
           run: cat /etc/os-release
-          shell:bash
+          shell: bash
 
       - name:"Uset Details"
            run:whoami
-           shell:bash
+           shell: bash
 
       - name:"Current Working Directory"
           run: |
